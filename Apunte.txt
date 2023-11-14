@@ -1,0 +1,98 @@
+Taller de ‘Git’ [Con Github] 
+
+¿Por qué es importante aprender a trabajar en
+“equipo”?
+
+01 Proyectos Complejos: Modularidad
+02 Diversidad de habilidades: No puedes con todo
+03 Mejora de la calidad del código: Codigo spaghetti 
+ 
+== GIT ¿Qué es? ==
+Es un sistema de control de versiones: un software que permite registrar
+el historial de cambios de un proyecto.
+
+== Repositorio ==
+Es un espacio centralizado donde se almacena, organiza, mantiene y difunde información digital. 
+
+== Arquitectura ==
+(Local)
+working directory
+= git add =
+
+staging area 
+- git commit
+- git checkout
+- git marge
+
+local repo
+- git push
+- git tech
+
+(Remote)
+- git fech 
+
+- git add * (comando para poner todo lo de el repositorio )
+
+== Comandos Básicos ==
+- git init: Inicializamos un repositorio local.
+- git add [fichero.extensión]: Agregamos un archivo al stash.
+- git reset [fichero.extensión]: Cancelamos la subida de un
+archivo al stash.
+- git commit -m “Mensaje”: Subimos nuestros cambios al
+repositorio local.
+
+== Ramas (Branches) ==
+NUNCA TRABAJAR EN LA RAMA PRINCIPAL
+Aplicar las ramas
+-- git checkout
+(Branch):
+Cambiamos la rama en la que trabajaremos localmente.
+O
+-- git switch (rama)
+
+git clone <URL del repositorio>: Descargamos y ponemos a
+trabajar un repositorio remoto.
+git switch/git branch: Nos muestra las ramas disponibles.
+git switch -c (nombre de la nueva rama): Este comando crea
+una nueva rama llamada nombre-de-la-nueva-rama y cambia a
+ella.
+git pull: Obtenemos la rama de un repositorio en línea y lo
+fusionamos con nuestra rama local. (Git fetch y git merge
+juntos) 
+
+-- git checkout (cambiar rama)
+
+= Fork =
+Podemos definir un Fork como el crear una copia totalmente 
+independiente del proyecto principal en nuestra cuenta.
+
+Proyecto de una organización ----> Repositorio Personal
+
+= 01 Hablemos de Github =
+Una plataforma de control de versiones y red social de codigo
+
+= Github 01 =
+Plataforma que nos permitirá subir y
+administrar nuestros proyectos teniendo un
+control total de las versiones.
+
+= Github 02 =
+Al tener nuestros proyectos en línea nos
+permite trabajar de manera colaborativa con
+múltiples desarrolladores!.
+
+= Caracteristicas =
+Alojar proyectos online gratis
+Aportar a proyectos públicos
+Crear proyectos privados
+Todas las ventajas de Git
+
+= Conectar nuestro proyecto con un repositorio de GitHub =
+- git remote add [alias/origin] [url]: Nos conectamos.
+- git remote -v: Vemos si estamos conectados.
+
+= Conectar nuestro proyecto con un repositorio de GitHub = 
+1.- git config --global user.name "Tu Nombre"
+2.- git config --global user.email "tu@email.com"
+3.- git remote add origin < URL del repositorio >
+4.- git push -u origin nombre-de-rama
